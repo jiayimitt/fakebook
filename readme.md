@@ -30,7 +30,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fakebook.git
+   git clone [https://github.com/jiayimitt/fakebook]
    ```
 2. Navigate to the project folder:
    ```bash
