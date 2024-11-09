@@ -23,7 +23,6 @@
 - **Dynamic Posting**: Users can create text-based posts and upload images, which appear in the feed section.
 - **Profile Info Modal**: A modal window displays user information and can be toggled via the profile image.
 - **Live Image Preview**: When a user selects an image, it provides an inline preview before posting.
-- **Responsive Design**: The layout adapts for various screen sizes to ensure a smooth user experience.
 
 ## Getting Started
 
