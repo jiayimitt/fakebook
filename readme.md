@@ -42,7 +42,7 @@
 
 - **View Profile**: Click on the profile image in the header to open a modal with user information.
 - **Create a Post**: Use the text area in the main section to write a post. Optionally, attach an image using the upload icon, and click "Post" to publish it.
-- **Close Modal**: Click the "X" button or outside the modal to close the profile info modal.
+- **Close Modal**: Click the "X" button to close the profile info modal.
 
 ## Project Structure
 
