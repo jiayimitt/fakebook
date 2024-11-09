@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="jiayi">
+        <title>Fakebook</title>
+        <link rel="stylesheet" href="./assets/css/style.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" href="./assets/img/letter-n.png" type="x-icon">
+        <script src ="assets/js/index.js" defer></script>      
+    </head>
+    <body>
+     <!--Header----------------------------------------------->
+        <header>
+                <div class="container flex space ">
+                  <a class="fakebook">
+                    <div class="flex fakebook">
+                       <p>Fakebook</p>
+                    </div>
+                  </a>              
+                    <div class="info-tab flex">
+                      <a class="head-info">Friends</a>
+                      <a class="head-info">Pages</a>
+                      <a class="head-info">Groups</a> 
+                      <a class="head-info">Settings</a>                    
+                    </div>                                                   
+                    <li><a href="#" id="accountImageLink"><img src="./assets/img/jiayi-id.jpg" alt="Account Info" class="account-image"></a></li>
+                     
+                </div>
+                  <!-- User Info Modal -->
+                <div id="userModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close" id="closeModal" aria-label="Close Modal">&times;</span>
+                    <h2>User Information</h2>
+                    <div id="userInfo">
+                      <!-- Dynamic user info will go here -->
+                    </div>
+                  </div>
+                </div>
+
+        </header>
+
+        <!--Main----------------------------------------------->
+            <!-- Post Form -->
+            <section class="post-form">
+              <div class="input-container">
+                  <textarea id="postText" placeholder="What's new, Jiayi?"></textarea>
+                  <label for="postImage" class="upload-icon">
+                      <i class="fa fa-image"></i>
+                  </label>
+                  <input type="file" id="postImage" accept="image/*" style="display: none;">
+                  <button id="postButton" disabled>Post</button>
+                  <div id="imagePreview" class="image-preview"></div>                  
+              </div>            
+          </section>         
+
+          <!-- Posts Section -->
+          <section id="posts" class="posts">
+              <!-- Posts will be dynamically added here -->
+          </section> 
+    </body>
+</html>
